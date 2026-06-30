@@ -1,0 +1,24 @@
+#background {
+width: 100vw;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-color:black;
+text-align: right;
+display: flow-root;
+}
+
+html,
+body,
+p {
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+
+p { 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+} 

@@ -1,4 +1,4 @@
-const background = document.getElementById("background:");
+const background = document.getElementById("background");
 
 async function getBackground() {
 const url = "https://api.nasa.gov/planetary/apod?api_key=mndnURjg5KGa2nMMHaD4ZL7Sk4npfbD25U3A91HE";

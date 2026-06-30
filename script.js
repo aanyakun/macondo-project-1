@@ -12,7 +12,7 @@ const result = await response.json();
 console.log(result);
 
 if (result.media_type !== "image") {
-console.log("APOD returned a non-image media type. Please try again later, sorry.");
+console.log("APOD returned a non-image media type.");
 return null;
 }
 return result.url;

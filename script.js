@@ -27,7 +27,7 @@ window.onload = function() {
         console.log(imageUrl);
 
     if (background) {
-    background.style["background-image"] = `url(${imageUrl})`;
+    background.style["background-image"] = `url('${imageUrl}')`;
     }
     });
 };
